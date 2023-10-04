@@ -1,4 +1,4 @@
-package maps
+package gomaps
 
 // checks if a map is empty
 func IsEmpty[M ~map[K]V, K comparable, V any](m *M) bool {
